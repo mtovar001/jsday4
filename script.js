@@ -19,11 +19,14 @@ function replace(){
     console.log (grade);
 }
 
+let sumgrades = 87 + 99 + 60 + 68;{
+    console.log (sumgrades);
+}
+let x = sumgrades / 4;{
+    console.log (x);
+}
 
 
-
-
-    
 
 
 
@@ -52,4 +55,14 @@ let car ="";
     console.log (car)
 }
 
-   
+/* Class Activity
+Write a function that takes in 2 params check if they are equal if they are console log a nice message if they are not console log a nicer message about them being equal
+invke the function with different primitive data types*/
+
+function compare (x,y){
+if (x == y); {
+    console.log ("Time to wake up");
+  } else(x != y); {
+    console.log("silence");
+  }
+}
